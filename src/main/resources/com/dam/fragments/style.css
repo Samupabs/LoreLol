@@ -1,5 +1,5 @@
 .transparent{
-    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-color: #003399;
 }
 
 .shadow{
@@ -7,11 +7,11 @@
 }
 
 .chosen-fruit-card{
-    -fx-background-color: #F16C31;
+    -fx-background-color: #4d4dff;
     -fx-background-radius: 15;
 }
 .itemBackground{
-    -fx-background-color: #fff;
+    -fx-background-color: #e6b800;
 }
 
 .comboBox{

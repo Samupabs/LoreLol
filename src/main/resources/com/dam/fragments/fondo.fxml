@@ -12,31 +12,38 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="976.0" style="-fx-background-color: #2e2eb8;" styleClass="sceneBackground" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.fragments.controller.MarketController">
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="976.0" style="-fx-background-color: #000080;" styleClass="sceneBackground" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.fragments.controller.controladorDelFondo">
+
    <children>
-      <ScrollPane fx:id="scroll" hbarPolicy="NEVER" layoutX="11.0" layoutY="387.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="238.0" prefWidth="952.0" styleClass="transparent" stylesheets="@style.css">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="383.0" prefHeight="32.0" prefWidth="926.0" text="ELIGE TU LEYENDA" textAlignment="CENTER" textFill="#ffbf00">
+         <font>
+            <Font name="Cambria Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="scroll" hbarPolicy="NEVER" layoutX="11.0" layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="952.0" styleClass="transparent" stylesheets="@style.css">
          <content>
-            <GridPane fx:id="grid" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="238.0" prefWidth="948.0">
+            <GridPane fx:id="grid" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="204.0" prefWidth="922.0" styleClass="transparent">
             </GridPane>
          </content>
       </ScrollPane>
       <AnchorPane fx:id="este" layoutY="82.0" prefHeight="363.0" prefWidth="500.0" AnchorPane.bottomAnchor="249.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
          <children>
-            <VBox fx:id="chosenFruitCard" layoutX="9.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="931.0" stylesheets="@style.css">
+            <VBox fx:id="selectorDeCampeon" layoutX="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="941.0" stylesheets="@style.css">
                <children>
                   <HBox id="imagenYdescripcionHB" alignment="CENTER" maxWidth="-Infinity" prefHeight="239.0" prefWidth="900.0">
                      <VBox.margin>
                         <Insets left="20.0" top="30.0" />
                      </VBox.margin>
                      <children>
-                        <ImageView fx:id="fruitImg" fitHeight="265.0" fitWidth="310.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="imagenCampeon" fitHeight="265.0" fitWidth="310.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@img/VeigarAni.gif" />
                            </image>
                         </ImageView>
-                        <Label fx:id="fruitPriceLabel" prefHeight="242.0" prefWidth="532.0" text="Descripcion" textAlignment="RIGHT" textFill="WHITE">
+                        <Label fx:id="descripcionCampeon" prefHeight="242.0" prefWidth="532.0" textFill="WHITE" wrapText="true">
                            <font>
-                              <Font name="Cambria" size="36.0" />
+                              <Font name="Cambria Italic" size="20.0" />
                            </font>
                            <padding>
                               <Insets right="20.0" />
@@ -44,7 +51,7 @@
                         </Label>
                      </children>
                   </HBox>
-                  <Label fx:id="fruitNameLable" alignment="CENTER" contentDisplay="CENTER" prefHeight="46.0" prefWidth="167.0" text="Peach" textFill="WHITE">
+                  <Label fx:id="nombreCampeon" alignment="CENTER" contentDisplay="CENTER" prefHeight="46.0" prefWidth="392.0" text="Veigar" textFill="WHITE">
                      <font>
                         <Font name="Cambria" size="36.0" />
                      </font>

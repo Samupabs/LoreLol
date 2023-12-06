@@ -10,18 +10,21 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane onMousePressed="#click" prefHeight="187.0" prefWidth="171.0" stylesheets="" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dam.fragments.controller.ItemController">
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane onMousePressed="#click" prefHeight="187.0" prefWidth="171.0" stylesheets="" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.dam.fragments.controller.controladorDeCampeones">
+   <MediaView fx:id="audioMV" />
    <children>
       <VBox alignment="TOP_CENTER" layoutX="63.0" layoutY="8.0" styleClass="itemBackground" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <HBox maxWidth="-Infinity" prefHeight="51.0" prefWidth="177.0">
                <children>
-                  <Label fx:id="nameLabel" prefHeight="49.0" prefWidth="137.0" text="Cherry">
+                  <Label fx:id="nombreCampeon" prefHeight="49.0" prefWidth="137.0" text="Veigar" >
                      <font>
                         <Font name="Cambria" size="24.0" />
                      </font>
                   </Label>
-                  <Label fx:id="priceLable" alignment="CENTER_RIGHT" prefHeight="49.0" prefWidth="101.0" textAlignment="RIGHT">
+                  <Label fx:id="descripcionCampeon" alignment="CENTER_RIGHT" opacity="0" prefHeight="49.00" prefWidth="101.0" textAlignment="RIGHT">
                      <font>
                         <Font name="Cambria Bold" size="18.0" />
                      </font>
@@ -39,7 +42,7 @@
             </HBox>
             <ImageView fx:id="img" fitHeight="102.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@img/cherry.png" />
+                  <Image url="@img/VeigarAni.gif" />
                </image>
             </ImageView>
          </children>

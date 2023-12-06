@@ -1,8 +1,8 @@
 package com.dam.fragments.main;
 
 
-import com.dam.fragments.model.Fruit;
+import com.dam.fragments.model.Campeon;
 
 public interface MyListener {
-    void onClickListener(Fruit fruit);
+    void onClickListener(Campeon campeon);
 }
