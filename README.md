@@ -10,9 +10,9 @@ LoreLol es una aplicación JavaFX que te permite explorar y conocer más sobre l
 
 ## Capturas de Pantalla
 
-![Captura de pantalla 1](img/screenshot1.png)
+![Captura de pantalla 1](..\LoreLol\src\main\resources\com\dam\fragments\img/screenshot1.png)
 
-![Captura de pantalla 2](\LoreLol\src\main\resources\com\dam\fragments\img)
+![Captura de pantalla 2](..\LoreLol\src\main\resources\com\dam\fragments\img)
 
 ## Requisitos del Sistema
 
