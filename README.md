@@ -1,5 +1,7 @@
 # LoreLol - Explorador de Campeones
 
+(Trabajo de evaluación para Interfaces Gráficas - DAM2)
+
 LoreLol es una aplicación JavaFX que te permite explorar y conocer más sobre los diversos campeones del popular juego League of Legends. La aplicación presenta una interfaz gráfica atractiva que muestra una selección de campeones, cada uno con su propia animación, descripción y sonido característicos.
 
 ## Características Principales
@@ -11,3 +13,7 @@ LoreLol es una aplicación JavaFX que te permite explorar y conocer más sobre l
 ## Requisitos del Sistema
 
 - Java 8 o superior
+
+## Autor
+
+- Pablo Herrera Calvo.
