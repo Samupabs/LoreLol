@@ -39,7 +39,7 @@ public class controladorDeCampeones implements Initializable {
         myListener.onClickListener(campeon);
 
         // Obtiene la ruta del archivo de audio del campeón.
-        String path = "C:\\2doDAM\\Diseño Interfaz Grafica\\ZIPs\\LoreLol\\src\\main\\resources\\com\\dam\\fragments\\" + campeon.getAudioCampeon();
+        String path = "..\\LoreLol\\src\\main\\resources\\com\\dam\\fragments\\" + campeon.getAudioCampeon();
 
         try {
             // Crea un objeto Media basado en la ruta del archivo de audio.
